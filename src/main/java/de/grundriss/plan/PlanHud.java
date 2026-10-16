@@ -20,7 +20,7 @@ public final class PlanHud {
 
 	public static void render(GuiGraphicsExtractor g, DeltaTracker delta) {
 		Minecraft mc = Minecraft.getInstance();
-		if (!Freecam.isEnabled() || mc.options.hideGui) return;
+		if (!Freecam.isEnabled()) return;
 		Font font = mc.font;
 		PlanColor color = PlanController.color();
 		Integer layer = PlanController.layer();
