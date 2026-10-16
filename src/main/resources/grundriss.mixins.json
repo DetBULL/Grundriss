@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "de.grundriss.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"BlockStateBaseMixin",
+		"CameraMixin",
+		"ClientPacketListenerMixin",
+		"EntityMixin",
+		"EntityRenderDispatcherMixin",
+		"GameRendererMixin",
+		"LevelExtractorMixin",
+		"MinecraftMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

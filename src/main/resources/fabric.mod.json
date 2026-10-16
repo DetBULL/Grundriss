@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "grundriss",
+	"version": "${version}",
+	"name": "Grundriss",
+	"description": "Freecam mit transparenten Planungsblöcken, um Bauten grob vorzuplanen. Läuft nur im Client.",
+	"authors": ["Du"],
+	"contributors": ["Freecam-Teile basieren auf MinecraftFreecam/Freecam (MIT)"],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["de.grundriss.Grundriss"]
+	},
+	"mixins": [
+		{
+			"config": "grundriss.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
