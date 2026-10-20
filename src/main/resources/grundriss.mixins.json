@@ -10,6 +10,7 @@
 		"EntityRenderDispatcherMixin",
 		"GameRendererMixin",
 		"LevelExtractorMixin",
+		"LocalPlayerMixin",
 		"MinecraftMixin"
 	],
 	"injectors": {
